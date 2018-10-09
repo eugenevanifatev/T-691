@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password generation</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div>
+		<input type="checkbox" name="Numbers" checked>
+		<label>Contain numbers?</label>
+		<br/>
+		<input type="checkbox" name="High-register" checked>
+		<label>Contain High-register letters?</label>
+		<br/>
+		<input type="checkbox" name="Low_" checked>
+		<label>Contain '_'</label>
+		<br/>
+		<label>Password length</label>
+		<input class="radio_length" type="radio" name="length" value="1">4-8
+		<input class="radio_length" type="radio" name="length" value="2"checked>9-12
+		<input class="radio_length" type="radio" name="length" value="3">13-15
+	</div>
+	<div id="button"><button type="submit" onclick="PasswordGeneration()">Submit</button></div>	
+	<div id="Output">Your password is: </div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
