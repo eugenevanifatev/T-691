@@ -1,0 +1,25 @@
+* {
+	font-family: Roboto;
+}
+#input-length {
+	padding: 10px;
+	margin: auto;
+	font-size: 18px;
+}
+#generate {
+	width: 130px;
+	padding: 5px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: #0029BA;
+	color: white;
+	text-align: center;
+	user-select: none
+}
+#generate:hover {
+	background-color: #0069FF;
+	cursor: pointer;
+}
+.selectors {
+	margin: 5px;
+}
