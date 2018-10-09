@@ -1,0 +1,13 @@
+div{
+	padding-top: 300px;
+	text-align: center;
+}
+div#button{
+	padding-top: 15px;
+	text-align: center;
+}
+div#Output{
+	padding-top: 10px;
+	margin: 0;
+	text-align: center;
+}
