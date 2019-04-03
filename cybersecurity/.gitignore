@@ -1,0 +1,8 @@
+ciphers/Two-square/build
+ciphers/Affine/.idea
+ciphers/Affine/build
+ciphers/Vernam/cmake-build-debug
+ciphers/Vernam/cmake-build-release
+ciphers/RSA/cmake-build-debug
+ciphers/RSA/cmake-build-release
+ciphers/RSA/.idea
